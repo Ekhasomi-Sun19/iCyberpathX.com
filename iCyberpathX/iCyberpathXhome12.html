@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="iCyberpathXhome12.css">
+    <script src="iCyberpathXhome.js"></script>
+    <title>iCyberpathX</title>
+</head>
+<body>
+    <!-- Header and mobile menu structure -->
+    <header>
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="images/FirstLogo.png" alt="" class="header-logo">
+        <div class="header-buttons">
+            <a href="#" class="contact-bar">Call us at +1 301.241.7665</a>
+            <a href="#" class="btn">Request Info</a>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Video Tutorials</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Cyber Insights</a></li>
+            <li><a href="#">Blog</a></li>
+            <!-- Header buttons will be moved here in mobile view via JavaScript -->
+            <div id="mobile-header-buttons"></div>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Cybersecurity: Learn, Research, Excel.</h1>
+            <p>Unlock your potential with expert resources, comprehensive study materials, cutting-edge <br> 
+            research, and hands-on tutorials. Our platform is designed to prepare you for every <br>
+            stage of your career, offeringinsights and certifications that set you apart.</p>
+        </div>
+    </div>
+
+    <div class="moving-text-container">
+        <p class="moving-text">Shapes the digital world, safeguarding innovation and promote trust across industries globally.</p>
+    </div>
+
+    <section class="content">
+        <h3>Cybersecurity Is All We Talk About.</h3>
+        <p>Advance your cybersecurity career with a platform designed to equip you for success. From foundational 
+            knowledge to advanced skills, our immersive courses combine — hands-on training with 
+            industry-recognized certifications, including GIAC, CompTIA, and (ISC)². Explore 
+            comprehensive resources and tools tailored to every stage of your journey.</p>
+    </section>
+
+    <section class="iCyber-section">
+      <div class="iCyber-content">
+        <div class="text-area">
+          <img src="images/Logo6.png" alt="iCyber Logo" class="iCyber-logo">
+          <div class="conf25-badge">iCyber<span class="conf25-year">Xint</span></div>
+          <h1>Digital & Cloud Security resilience in the AI era.</h1>
+          <p class="join-text">Join us at <span class="highlight">.conf25.</span></p>
+          <p class="date-location">September 8–11, 2025<br>Boston, Massachusetts</p>
+          <a href="#" class="register-btn">Register now</a>
+        </div>
+        <div class="image-area">
+          <img src="images/Ai-image12.png" alt="AI Person" class="ai-image">
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- ========================================================= -->
+
+    <section class="career-container">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 10px;">
+        <span style="color: rgb(185, 225, 241);">Cybersecurity</span> <span style="color: skyblue;">Career Path</span>
+      </h2>
+      <p style="text-align: center; color: white; margin-bottom: 30px; font-size: 1.1rem;">
+        Done! I've removed the arrows and provided just the section containing the boxes. You can now copy and paste this section into your existing webpage. Let me know if you want to style it differently or add anything else.
+      </p>
+    
+      <div class="career-row" id="entry-level">
+        <div class="career-box" onclick="goTo('it-helpdesk.html')">IT Helpdesk Technician</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('jr-security-analyst.html')">Junior Security Analyst</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('security-intern.html')">Security Intern</div>
+      </div>
+    
+      <div class="career-row" id="mid-level">
+        <div class="career-box" onclick="goTo('penetration-tester.html')">Penetration Tester</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('soc-analyst.html')">SOC Analyst (Blue Team)</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('red-team-member.html')">Red Team Member</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('purple-team.html')">Purple Team Specialist</div>
+      </div>
+    
+      <div class="career-row" id="senior-level">
+        <div class="career-box" onclick="goTo('cybersecurity-manager.html')">Cybersecurity Manager</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('senior-penetration-tester.html')">Senior Penetration Tester</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('senior-soc-analyst.html')">Senior SOC Analyst</div>
+      </div>
+    
+      <div class="career-row" id="executive-level">
+        <div class="career-box" onclick="goTo('security-director.html')">Director of Security</div>
+        <div class="connector"></div>
+        <div class="career-box" onclick="goTo('ciso.html')">Chief Information Security Officer (CISO)</div>
+      </div>
+    </section>
+    
+    <style>
+      .career-container {
+        padding: 40px;
+        background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+    
+      .career-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+    
+      .career-box {
+        background: #1f1f1f;
+        border: 1px solid aqua;
+        border-radius: 10px;
+        padding: 20px 30px;
+        min-width: 200px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        z-index: 1;
+      }
+    
+      .career-box:hover {
+        transform: translateY(-5px);
+        background-color: rgba(0, 255, 255, 0.1);
+      }
+    
+      .connector {
+        height: 2px;
+        width: 20px;
+        border-top: 3px dotted aqua;
+        z-index: 0;
+      }
+    </style>
+    
+    <script>
+      function goTo(url) {
+        window.location.href = url;
+      }
+    </script>    
+    
+    <!-- ========================================================= -->
+    <section class="instructor-section">
+      <div class="instructor-container">
+        <div class="instructor-image">
+          <img src="images/Sunny12.jpg" alt="Josh Madakor">
+        </div>
+        <div class="instructor-info">
+          <h4 class="role">About the AUTHOR</h4>
+          <h2 class="name">Sunday Ekhasomi</h2>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/sunday-ekhasomi/" class="social-link">🔗 LinkedIn</a>
+            <a href="#" class="social-link">▶️ @sunnyekhasomi</a>
+            <span class="subscriber-count">189K+ subscribers</span>
+          </div>
+          <p class="bio">
+            Sunday Ekhasomi is an IT professional with expertise in Software Development, System Engineering, 
+            and Cybersecurity. He has contributed to diverse sectors, including finance, education, 
+            and government, delivering impactful solutions like cloud security monitoring, risk metric 
+            development, and network security enhancements. Sunday has authored security guides, automated 
+            risk analysis processes, and implemented compliance measures. His technical skills span 
+            programming languages like Python and JavaScript, with notable achievements in API development, 
+            threat modeling, and system integration. Sunday’s experience reflects a commitment to 
+            innovation, problem-solving, and advancing organizational security.
+          </p>
+          <button class="cta-button">Start My Free Introduction Course</button>
+          <button class="cta-button">My Portfolio</button>
+        </div>
+      </div>
+    </section>
+    <section class="dark-section">
+        <h2 class="section-title">Cybersecurity Newsletter and Updates</h2>
+        <div class="content-container">
+            <div class="cards">
+                <div class="card">
+                    <img src="images/hacker1.jpg" alt="Image 1" class="card-image">
+                    <h3 class="card-title">Card Title 1</h3>
+                    <p class="card-text">Some description for the first card.</p>
+                </div>
+                <div class="card">
+                    <img src="images/Headphone 1.png" alt="Image 1" class="card-image">
+                    <h3 class="card-title">Card Title 1</h3>
+                    <p class="card-text">Some description for the first card.</p>
+                </div>
+                <div class="card">
+                    <img src="images/black.png" alt="Image 2" class="card-image">
+                    <h3 class="card-title">Card Title 2</h3>
+                    <p class="card-text">Some description for the second card.</p>
+                </div>
+            </div>
+            <div class="text-before-phone">
+                <p>Stay updated with the latest trends, tools, and insights in cybersecurity. Subscribe to our newsletter for exclusive tips and news tailored for professionals and enthusiasts.</p>
+                
+                <!-- Newsletter subscription form -->
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                    <button class="newsletter-button">Subscribe</button>
+                </div>
+            </div>
+            <div class="phone-container">
+                <img src="images/Phone image.png" alt="Phone Image" class="phone-image">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <img src="images/Logo6.png" alt="NSF Logo" class="footer-logo">
+            <p>2415 Eisenhower Ave<br>Alexandria, VA 22314<br>
+              <a href="tel: +13012417665">(301)2417665</a>
+            </p>
+            <a href="#" class="email-updates"><i class="fa fa-envelope"></i> Sign up for email updates</a>
+            <div class="social-media">
+              <a href="#" class="social-link"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa fa-youtube"></i></a>
+              <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fa fa-rss"></i></a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="footer-column">
+              <h4>About Us</h4>
+              <a href="#">About iCyberpathX</a>
+              <a href="#">Study plan</a>
+              <a href="#">Tutorial</a>
+              <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-column">
+              <h4>What's New</h4>
+              <a href="#">Security Newsletter</a>
+              <a href="#">Events</a>
+              <a href="#">Security Matters Blog</a>
+            </div>
+            <div class="footer-column">
+              <h4>Information For</h4>
+              <a href="#">Fuel your career</a>
+              <a href="#">Media</a>
+              <a href="#">Educators</a>
+            </div>
+            <div class="footer-column">
+              <h4>Resources</h4>
+              <a href="#">Report Cyber issues</a>
+              <a href="#">Public Access</a>
+            </div>
+          </div>
+        </div>
+      </footer>  
+</body>
+</html>
